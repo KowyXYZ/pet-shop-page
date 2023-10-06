@@ -32,24 +32,7 @@ function Hero() {
             <button className='bg-[#ffdc26] py-2 px-6 rounded-3xl text-[#fff] font-black text-[20px]'>Contact Us</button>
         </div>
 
-        <div className='z-30 absolute xs:bottom-20 md:bottom-20 xl:top-[400px] top-[50px] w-full flex justify-center items-center '>
-        <a href="#about">
-          <div className='w-[35px] h-[64px] rounded-3xl border-4 border-[#000] flex justify-center items-start p-2'>
-              <motion.div
-                animate={{
-                  y:  [0, 24, 0]
-                }}
-                transition={{
-                  duration: 1.5,
-                  repeat: Infinity,
-                  repeatType: 'loop'
-                }}  
-
-                className='w-3 h-3 rounded-full bg-[#000] mb-1'
-              />
-          </div>
-        </a>
-      </div>
+      
     </div>
   )
 }
