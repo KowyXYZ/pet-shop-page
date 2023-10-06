@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import {logo, menu, close} from '../assets'
 
-
 function Navbar() {
 
   const [toggle, setToggle] = useState(false)
@@ -31,6 +30,8 @@ function Navbar() {
             <p>+62 899-782-6957 <br/><span className='text-[#FFDC26]'>10:00 - 19:00</span></p>
           </div>
         </div>
+
+       
     </nav>
   )
 }

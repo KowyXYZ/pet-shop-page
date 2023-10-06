@@ -23,6 +23,8 @@ import tiktok from './tiktok.png'
 import close from './close.svg'
 import menu from './menu.svg'
 
+import footer from './footer.png'
+
 export {
     about,
     cat_dog,
@@ -42,5 +44,6 @@ export {
     woman_left,
     woman_right,
     close,
-    menu
+    menu,
+    footer
 }
