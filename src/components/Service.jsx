@@ -3,7 +3,7 @@ import { service } from '../assets'
 
 function Service() {
   return (
-    <div className='bg-[#FFF9F4] py-6'>
+    <div id='grooming'  className='bg-[#FFF9F4] py-6'>
         <div className='mx-6 sm:mx-16 md:mx-24 flex flex-col items-center text-center justify-center'>
              <p className='font-black sm:text-[40px] md:text-[40px] text-[30px]'>Out The Best Serivce</p>
              <p className='text-[gray] text-[14px]'>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>

@@ -13,8 +13,7 @@ function Navbar() {
           <a href="/">Home</a>
           <a href="#about">About</a>
           <a href="#grooming">Pet Grooming</a>
-          <a href="#sitting">Pet Sitter</a>
-          <a href="#training">Pet Training</a>
+
           <p>+62 899-782-6957 <br/><span className='text-[#FFDC26]'>10:00 - 19:00</span></p>
         </div>
 
@@ -23,10 +22,8 @@ function Navbar() {
       
           <div className={`${toggle ? 'flex' : 'hidden'}  absolute top-[70px] flex-flex-col text-center bg-[#fff] right-0 rounded-2xl gap-4 p-4 flex-col border-2 border-[#FFDC26]`}>
             <a href="/">Home</a>
-            <a href="#">About</a>
-            <a href="#">Pet Grooming</a>
-            <a href="#">Pet Sitter</a>
-            <a href="#">Pet Training</a>
+            <a href="#about">About</a>
+            <a href="#grooming">Pet Grooming</a>
             <p>+62 899-782-6957 <br/><span className='text-[#FFDC26]'>10:00 - 19:00</span></p>
           </div>
         </div>

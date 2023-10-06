@@ -6,7 +6,7 @@ function Footer() {
     <div className='py-6 bg-[#FFDC26]'>
         <div className='mx-6 xs:mx-16 md:mx-24 flex- flex-col'>
             <div className='flex flex-col items-center justify-center'>
-                <img className='w-1/4' src={footer} alt="footer" />
+                <img className='md:w-1/4 w-full' src={footer} alt="footer" />
             </div>
 
             
